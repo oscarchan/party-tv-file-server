@@ -12,6 +12,21 @@
   <% end %>
 
     <div class="field">
+      <%= f.label :caption %><br />
+      <%= f.text_field :caption %>
+    </div>
+
+    <div class="field">
+      <%= f.label :num_likes %><br />
+      <%= f.text_field :num_likes  %>
+    </div>
+
+    <div class="field">
+      <%= f.label :num_dislikes  %><br />
+      <%= f.text_field :num_dislikes  %>
+    </div>
+
+    <div class="field">
       <%= f.file_field :image %>
     </div>
 

@@ -3,14 +3,17 @@
 <table>
   <tr>
     <th>id</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>caption</th>
+    <th>likes</th>
+    <th>dislikes</th>
   </tr>
 
 <% @photos.each do |photo| %>
   <tr>
     <td><%= photo.id %></td>
+    <td><%= photo.caption %></td>
+    <td><%= photo.num_likes %></td>
+    <td><%= photo.num_dislikes %></td>
     <td><%= link_to 'Show', photo %></td>
     <td><%= link_to 'Edit', edit_photo_path(photo) %></td>
     <td><%= link_to 'Destroy', photo, confirm: 'Are you sure?', method: :delete %></td>

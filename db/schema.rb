@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120422193347) do
+ActiveRecord::Schema.define(:version => 20120423061246) do
 
   create_table "apps", :force => true do |t|
     t.string   "name"
@@ -26,6 +26,9 @@ ActiveRecord::Schema.define(:version => 20120422193347) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.string   "caption"
+    t.integer  "num_likes"
+    t.integer  "num_dislikes"
   end
 
 end
