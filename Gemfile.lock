@@ -110,6 +110,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   coffee-rails (~> 3.2.1)
   jquery-rails
   paperclip (~> 2.0)

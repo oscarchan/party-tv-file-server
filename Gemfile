@@ -40,3 +40,6 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem "paperclip", "~> 2.0"
+
+gem 'bundler'
+
