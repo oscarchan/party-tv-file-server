@@ -16,7 +16,7 @@ PartyTvFileServer::Application.configure do
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   # TODO change it back to false when asset pre-compile is fixed in heroku for rails 3.2.x
-  config.assets.compile = false
+  config.assets.compile = true
 
   # Generate digests for assets URLs
   config.assets.digest = true
