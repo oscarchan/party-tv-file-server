@@ -9,13 +9,13 @@ PartyTvFileServer::Application.configure do
   config.action_controller.perform_caching = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
-  # TODO make it false when asset pre-compile is fixed in heroku for rails 3.2.x
-  config.serve_static_assets = true
+  config.serve_static_assets = false
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
+  # TODO change it back to false when asset pre-compile is fixed in heroku for rails 3.2.x
   config.assets.compile = false
 
   # Generate digests for assets URLs
