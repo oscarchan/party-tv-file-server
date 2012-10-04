@@ -33,6 +33,7 @@ gem 'jquery-rails'
 
 # Use unicorn as the app server
 # gem 'unicorn'
+gem 'thin'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -41,6 +42,8 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem "paperclip", "~> 2.0"
+
+gem 'aws-sdk', '1.4.1'
 
 gem 'bundler'
 
